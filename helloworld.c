@@ -1,7 +1,10 @@
+#include <gb/gb.h>
 #include <stdio.h>
 
-int main()
-{
-    printf("Hello World\n");
-    return 0;
+void main() {
+    printf("Hello world");
+
+    while(1) {
+        vsync(); 
+    }
 }

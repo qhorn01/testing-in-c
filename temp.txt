@@ -1,0 +1,6 @@
+{
+    "python.REPL.sendToNativeREPL": true,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "git.openRepositoryInParentFolders": "never",
+    "code-runner.runInTerminal": true
+}
