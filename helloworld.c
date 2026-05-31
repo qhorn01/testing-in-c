@@ -1,22 +1,20 @@
 #include <gb/gb.h>
 #include <stdio.h>
 
-const unsigned char blackTile[] = {
-    0xFF,0xFF, 0xFF,0xFF, 0xFF,0xFF, 0xFF,0xFF,
-    0xFF,0xFF, 0xFF,0xFF, 0xFF,0xFF, 0xFF,0xFF
-};
+#include "testTiles.h"
+#include "testTilesMap.h"
 
 void main() {
-    printf("Hello world");
 
+    set_bkg_data(0, 3, TestTiles);
 
-    set_bkg_data(1, 1, blackTile);
-
-    set_bkg_tile_xy(10, 2, 1);
+    set_bkg_tiles(0, 0, 20, 18, TestTilesMap);
 
     SHOW_BKG;
+    DISPLAY_ON;
 
-    while(1) {
-        vsync(); 
+    while(1) 
+    {
+        wait_vbl_done();
     }
 }

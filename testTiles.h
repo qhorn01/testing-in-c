@@ -1,6 +1,6 @@
 /*
 
- BLACKSQUARE.H
+ TESTTILES.H
 
  Include File.
 
@@ -10,7 +10,7 @@
   Compression          : None.
   Counter              : None.
   Tile size            : 8 x 8
-  Tiles                : 0 to 0
+  Tiles                : 0 to 2
 
   Palette colors       : None.
   SGB Palette          : None.
@@ -24,8 +24,8 @@
 
 
 /* Bank of tiles. */
-#define TileSquareBank 0
+#define TestTilesBank 0
 /* Start of tile array. */
-extern unsigned char TileSquare[];
+extern unsigned char TestTiles[];
 
-/* End of BLACKSQUARE.H */
+/* End of TESTTILES.H */
