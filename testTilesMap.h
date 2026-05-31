@@ -7,7 +7,7 @@
  Info:
    Section       : 
    Bank          : 0
-   Map size      : 20 x 18
+   Map size      : 32 x 18
    Tile set      : C:\c\test\tiles\gbTilesTest.gbr
    Plane count   : 1 plane (8 bits)
    Plane order   : Tiles are continues
@@ -18,7 +18,7 @@
 
 */
 
-#define TestTilesMapWidth 20
+#define TestTilesMapWidth 32
 #define TestTilesMapHeight 18
 #define TestTilesMapBank 0
 
